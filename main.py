@@ -5,6 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import cross_val_score
 import pandas as pd
 import numpy as np
+
 # Fetch the dataset from UCI Machine Learning Repository
 
 dataset = fetch_ucirepo(id=82)
